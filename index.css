@@ -1,0 +1,300 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Rubik';
+    user-select: none;
+}
+body {
+    background-color: #623E2A;
+    margin: 0;
+}
+
+hr {
+    width: 60%;
+    background-color: #623E2A;
+    margin-top: 0;
+}
+
+body::after {
+    position: absolute;
+    background-image: url("images/bg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+/* main section */
+main {
+    color: white;
+    height: 100vh;
+    font-family: 'Rubik';
+}
+
+main .main-objects {
+    /*margin-top: 100px;*/
+    /*padding: 20px;*/
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0;
+}
+
+main h1 {
+    font-size: 120px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 8px black;
+}
+
+main #p1 {
+    font-size: 40px;
+    text-shadow: 2px 2px 8px black;
+}
+
+main #p2 {
+    font-size: 60px;
+    color: #ddff8f;
+    text-shadow: 2px 2px 8px black;
+    margin-top: 0;
+}
+
+main .main-buttons {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+main .main-buttons p {
+    font-size: 20px;
+    text-shadow: 2px 2px 8px black;
+}
+
+main .main-buttons i {
+    position: relative;
+    animation-name: td;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes td {
+    0% {top: 0;}
+    100% {top: 15px;}
+}
+
+
+/*================== SECTION 2 ==================*/
+#section_2 {
+    background-color: #F4F1ED;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section_2 #text_div {
+    color: #623E2A;
+    flex: 1;
+    padding: 20px;
+}
+
+#section_2 #text_div h2 {
+    font-size: 60px;
+}
+
+#section_2 #text_div p {
+    font-size: 25px;
+}
+
+#section_2 #img_div {
+    background-image: url("images/s2.png");
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
+
+/*================== SECTION 3 ==================*/
+#section_3 {
+    background-color: #F4F1ED;
+    padding: 5px;
+    color: #623E2A;
+}
+
+#section_3 #title {
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+#section_3 #posts {
+    display: flex;
+    justify-content: center;
+}
+
+#section_3 #posts div {
+    margin: 10px;
+}
+
+#section_3 #posts .post_img {
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+#section_3 #posts #img1 {
+    background-image: url("images/img1.jpg");
+}
+
+#section_3 #posts #img2 {
+    background-image: url("images/img2.jpg");
+}
+
+#section_3 #posts #img3 {
+    background-image: url("images/img3.jpg");
+}
+
+#section_3 #posts .text_div {
+    padding: 10px;
+    border-style: solid;
+    border-color: #623E2A;
+    border-width: 1px;
+}
+
+#section_3 #btn_div {
+    padding: 10px;
+    text-align: center;
+}
+
+#section_3 #btn_div .button {
+    text-decoration: none;
+    color: white;
+    background-color: #623E2A;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+/*================== SECTION 4 ==================*/
+#section_4 {
+    background-color: #F4F1ED;
+    padding: 5px;
+    color: #623E2A;
+}
+
+#section_4 #title {
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+#section_4 #images {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    padding: 10px;
+}
+
+#section_4 #images .galery_img {
+    background-size: cover;
+    margin: 5px;
+    width: 400px;
+    height: 250px;
+}
+
+#section_4 #images #img1 {
+    background-image: url("images/img1.jpg");
+}
+
+#section_4 #images #img2 {
+    background-image: url("images/img2.jpg");
+}
+
+#section_4 #images #img3 {
+    background-image: url("images/img3.jpg");
+}
+
+#section_4 #images #img4 {
+    background-image: url("images/img4.jpg");
+}
+
+#section_4 #images #img5 {
+    background-image: url("images/img5.jpg");
+}
+
+#section_4 #images #img6 {
+    background-image: url("images/img6.jpg");
+}
+
+#section_4 #btn_div {
+    padding: 10px;
+    text-align: center;
+}
+
+#section_4 #btn_div .button {
+    text-decoration: none;
+    color: white;
+    background-color: #623E2A;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+/*================== SECTION 4 ==================*/
+#section_5 {
+    background-color: #623E2A;
+    color: #F4F1ED;
+    padding: 5px;
+}
+
+#section_5 #title {
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+#section_5 #sections {
+    display: flex;
+    justify-content: center;
+}
+
+#section_5 #sections div {
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F4F1ED;
+    width: 300px;
+}
+
+#section_5 #sections div h3 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#section_5 p {
+    font-size: 20px;
+}
+
+#section_5 #sections div a {
+    text-decoration: none;
+    color: #F4F1ED;
+}
+
+
+
+#section_5 #social_media a {
+    font-size: 30px;
+    padding: 10px;
+}
